@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+.todo{
+  
+  margin: 0 auto;
+  background-color:transparent;
+  text-align: center;
+  border-radius: 10px;
+}
+.tocomp{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.app{
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  border: 1px solid rgb(255, 167, 5);
+  border-radius: 10px;
+  background-color:rgb(36, 36, 25);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text{
+  background-color: transparent;
+  border-radius: 20px;
+  height: 20px;
+  width: 98%;
+  border: 1px solid rgb(191, 204, 204);
 }
+.text::placeholder{
+  text-align: center;
+  align-items: center;
+}
+text:focus focus{
+  border-radius: 20px;
+}
+
+#title{
+  text-align: center;
+  color: orange;
+  font-weight: 1000;
+}
+
+body{
+  background-color: rgb(49, 20, 218);
+}
+#root{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input[type="checkbox"]+span {
+  background-color: chartreuse;
+}
+p{
+  color: white;
+}
+
+
+
+#btn {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  
+  /* This bit draws the box around it */
+  border:1px solid grey;
+  border-radius: 10px;
+ 
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding:2px;
+}
+#submit{
+  height: 30px;
+  line-height: 30px;  
+  width: 30px;  
+  font-size: 1.5em;
+  font-weight:normal;
+  border-radius: 50%;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+
+}
+
