@@ -3,7 +3,7 @@
 This project was created by Abdurrahim Ahmadov for practice.
 
 ## Available Scripts
-
+You can clone this project on your local machine and
 In the project directory, you can runf:
 
 ### `npm start`
